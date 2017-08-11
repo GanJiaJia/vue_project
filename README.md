@@ -2,5 +2,5 @@
 
 ## 1. 一个小型的电商WebApp
 
-* 项目详细介绍及api接口[请点这里]('https://github.com/GanJiaJia/vue_project/tree/master/vue_test')
- ![展示图]('img/shopstore.gif')
+* 项目详细介绍及api接口 ![请点这里]('https://github.com/GanJiaJia/vue_project/tree/master/vue_test')
+ ![展示图]('./img/shopstore.gif')
