@@ -16,7 +16,7 @@ npm run dev
 npm run build
 ```
 ## 项目功能演示
- ![展示图]('../img/shopstore.gif')
+ ![展示图](../img/shopstore.gif)
 
  * 技术栈 : webpack + vue + vuex + vue-router + axios;
 
@@ -42,67 +42,58 @@ npm run build
 ## api接口地址 
     ···js
     * 主页轮播图 ：   http://182.254.146.100:8899/api/getthumimages/87
-    ```
 
-    ```js
+
+   
     * 新闻资讯列表：   http://182.254.146.100:8899/api/getnewslist
-    ```
-
-    ```js
+   
 
     * 获取新闻资讯评论 ：     http://182.254.146.100:8899/api/getcomments
                                 动态路由匹配 ： id
                                 参数 ：pageindex;
                                 例如：http://182.254.146.100:8899/api/getcomments/13?pageindex=1
-    ```
 
-
-
-    ```js
+   
     * 提交新闻详情评论：   http://182.254.146.100:8899/api/postcomment
                             动态路由匹配 ： id
                             例如 ： http://182.254.146.100:8899/api/postcomment/13
-    ```
+   
 
 
-    ```js
     * 获取图片分类：  http://182.254.146.100:8899/api/getimgcategory
-    ```
+    
 
 
-    ```js
+
     * 获取图片信息：    http://182.254.146.100:8899/api/getthumimages/
                         动态路由匹配:  id
                         例如：http://182.254.146.100:8899/api/getthumimages/37
-    ```       
+    
 
 
-    ```js
+
     * 获取图片评论：    http://182.254.146.100:8899/api/getcomments
                         动态路由匹配 ： id
                         参数： pageindex
 
                         例如：http://182.254.146.100:8899/api/getcomments/37?pageindex=1
-    ```     
+   
 
 
-    ```js
 
     评论图片:       http://182.254.146.100:8899/api/postcomment
                         动态路由匹配 ： id
 
                         例如：http://182.254.146.100:8899/api/postcomment/39
 
-    ```     
+    
+    获取商品列表:   http://182.254.146.100:8899/api/getgoods
+    
 
-    ```js
-    获取商品列表   http://182.254.146.100:8899/api/getgoods
-    ```
 
-    ```js
     获取商品详情： http://182.254.146.100:8899/api/goods/getinfo
                     动态路由匹配： id
 
     ```
 
-    ~~~~~~~~~~~不写了 剩下的接口，兄弟们自己看源码吧，~~~~~~~~~~~~~~~~
+    ~~~~~~~~~~~不写了...，其他的接口，兄弟们自己看源码吧，~~~~~~~~~~~~~~~~
