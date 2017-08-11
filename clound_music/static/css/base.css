@@ -1,0 +1,106 @@
+html,
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+input,
+img {
+  border: 0;
+}
+
+input {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-size: 12px;
+  color: #434343;
+  font-family: "Microsoft YaHei"
+  /*background: #FFFFFF;*/
+}
+
+.clearfix:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+a {
+  color: #434343;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0266A3;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+@media screen and (width: 320px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (width: 375px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+@media screen and (width: 414px) {
+  html {
+    font-size: 20.7px;
+  }
+}
+@media screen and (width: 380px) {
+  html {
+    font-size: 19px;
+  }
+}
+@media screen and (width: 360px) {
+  html {
+    font-size: 18px;
+  }
+}
