@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #fff;
+}
+.temp{
+
+    margin-top: 40px;
+}
+
+
+
+
+header.mint-header{
+    background: pink;
+    position: fixed;
+    z-index: 9;
+}
+
+.mint-tabbar{
+
+    display: flex;
+    justify-content: space-around;
+     background: #eee;
+    
+}
+
+.mint-tabbar>a{
+
+    /*width: 40px; */
+     background: #eee;
+}
+
+.mint-tabbar>a>a,.mint-tabbar>a>a>div{
+
+    width: 40px; 
+    /*height: 40px;*/
+    box-sizing: border-box;
+}
