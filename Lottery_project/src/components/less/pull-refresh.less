@@ -1,0 +1,87 @@
+.yo-scroll {
+  font-size: 14px;
+  position: absolute;
+  top: .88rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  z-index: 0;
+  height: auto;
+  -webkit-overflow-scrolling: auto;
+  .inner {
+    position: absolute;
+    top: -.88rem;
+    width: 100%;
+    height: auto;
+    transition-duration: 0.3s;
+    .pull-refresh {
+      position: relative;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: .88rem;
+      color: #000;
+      display: flex;
+      display: -webkit-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .load-more {
+      height: .88rem;
+      line-height: .88rem;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      display: none;
+      color: #000;
+    }
+    .nullData {
+      //暂无更多数据样式
+      font-size: 12px;
+      color: #666;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+    }
+    .down-tip,
+    .refresh-tip,
+    .up-tip {
+      display: none;
+    }
+    .up-tip:before,
+    .refresh-tip:before {
+      content: '';
+      display: inline-block;
+      width: 160px;
+      height: 70px;
+      background-size: 70% !important;
+      position: absolute;
+      top: 0;
+      left: 20%;
+    }
+    .up-tip:before {
+      //background: url(../img/pull-refresh/down-logo.png) no-repeat center;
+    }
+    .refresh-tip:before {
+      //background: url(../img/pull-refresh/refresh-logo.gif) no-repeat center;
+    }
+  }
+}
+
+.yo-scroll.touch .inner {
+  transition-duration: 0;
+}
+
+.yo-scroll.down .down-tip {
+  display: block;
+}
+
+.yo-scroll.up .up-tip {
+  display: block;
+}
+
+.yo-scroll.refresh .refresh-tip {
+  display: block;
+}
